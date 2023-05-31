@@ -1,3 +1,13 @@
+/**
+ * @name discord glow
+ * @description glowtest
+ * @author nvrngh
+ * @version 0.0.1
+ * @website https://mwittrien.github.io/
+ * @source https://github.com/BODZy/discord-glow/
+ * @updateUrl https://raw.githubusercontent.com/BODZy/discord-glow/main/glow.theme.css
+ */
+
 @keyframes glow-animation {
     0% { text-shadow: 0 0 5px #ff0000; }
     50% { text-shadow: 0 0 20px #ff0000; }
