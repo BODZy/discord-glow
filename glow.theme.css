@@ -9,11 +9,13 @@
  */
 
 /* Glowing effect on text in chat */
+{
 .message-2qnXI6 {
   text-shadow: 0px 0px 10px #00ff00; /* Replace #00ff00 with the desired glow color */
 }
-
+}
 /* Glowing effect on user voice activity */
+{
 .membersGroup-v9BXpm .member-3-YXUe[data-activity="1"] .avatar-1BDn8e::after {
   content: "";
   position: absolute;
@@ -26,4 +28,5 @@
   right: 0;
   margin-bottom: 2px;
   margin-right: 2px;
+}
 }
