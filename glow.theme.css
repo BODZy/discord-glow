@@ -1,0 +1,85 @@
+/**
+ * @name NeonGlow
+ * @description Add some glow to your discord
+ * @author nvrngh
+ * @version 0.2.0
+ * @website https://github.com/BODZy/discord-glow
+ * @source https://github.com/BODZy/discord-glow/
+ * @updateUrl https://raw.githubusercontent.com/BODZy/discord-glow/main/glow.theme.css
+ */
+
+/* VA AVATAR GLOW */
+#app-mount .voiceUser-3nRK-K .avatar-3FKimL.avatarSpeaking-2pCGrZ {
+    box-shadow: inset 0 0 0 2px #00ffff, inset 0 0 0 3px var(--background-secondary), 0 0 10px #1fbeeea8;
+}
+
+/* VA NAME GLOW */
+.usernameSpeaking-3FKv6H {
+    /* text-shadow: 0 0 3px #ffffff93 */
+	filter: drop-shadow(0 0 2px #1fbeeea8);
+}
+
+/* CURRENT CHAT GLOW */
+#app-mount .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ .icon-2W8DHg, #app-mount .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ .name-28HaxV {
+    color: #00ffff;
+    filter: drop-shadow(0 0 3px #1fbeeea8);
+}
+
+/* USERLIST GLOW */
+.username-3_PJ5r {
+text-shadow: 0 0 3px currentColor;
+}
+
+/* CHAT USERNAME GLOW */
+.cozy-VmLDNB .username-h_Y3Us, #app-mount .cozy-VmLDNB .username-h_Y3Us {
+    /* text-shadow: 0 0 3px currentColor; */
+	filter: drop-shadow(0 0 2px currentColor);
+    line-height: normal;
+}
+/* CHAT LINK GLOW */
+.anchor-1X4H4q {
+text-shadow: 0 0 2px currentColor;
+}
+
+/* CHAT LINK COLOR */
+.markup-eYLPri a {
+    color: #1fbeee;
+}
+
+/* VOICE CONNECTED COLOR */
+.modeConnected-NrO4cP .name-28HaxV, .modeConnected-NrO4cP:hover .name-28HaxV, .modeSelected-3DmyhH .name-28HaxV, .modeSelected-3DmyhH:hover .name-28HaxV, .modeUnread-3Cxepe .name-28HaxV, .modeUnread-3Cxepe:hover .name-28HaxV, .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+    color: #00ffff;
+    filter: drop-shadow(0 0 4px #1fbeeea8);
+}
+
+/* SLASH COMMANDS GLOW */
+.executedCommand-14-SNW .commandName-1KhvGm {
+	filter: drop-shadow(0 0 2px #1fbeeea8);
+    color: var(--text-link);
+}
+
+/* POPUP ICONS GLOW (Messages and voice icons*/
+.baseShapeRound-3epLEv{
+	
+filter: drop-shadow(0 0 2px #1fbeeea8);
+}
+
+/* BOTTOM LEFT BUTTONS GLOW */
+.button-ejjZWC .contents-3NembX {
+filter: drop-shadow(0 0 1px #1fbeeea8);
+}
+
+/* PING INDICATOR GLOW */
+.ping-2IpLcU {
+	filter: drop-shadow(0 0 2px #1fbeeea8);
+}
+
+/* SELECTED SERVER GLOW */
+.item-2LIpTv {
+	box-shadow: inset 0 0 0 2px #00ffff, inset 0 0 0 2px var(--background-secondary), 0 0 3px #1fbeeea8;
+}
+
+/* BOT TAG GLOW */
+.px-MnE_OR.botTag-7aX5WZ{
+filter: drop-shadow(0 0 2px #1fbeeea8);
+}
