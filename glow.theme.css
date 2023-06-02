@@ -2,7 +2,7 @@
  * @name NeonGlow
  * @description Add some glow to your discord
  * @author nvrngh
- * @version 0.2.0
+ * @version 0.3.0
  * @website https://github.com/BODZy/discord-glow
  * @source https://github.com/BODZy/discord-glow/
  * @updateUrl https://raw.githubusercontent.com/BODZy/discord-glow/main/glow.theme.css
@@ -33,7 +33,7 @@ text-shadow: 0 0 3px currentColor;
 /* CHAT USERNAME GLOW */
 .cozy-VmLDNB .username-h_Y3Us, #app-mount .cozy-VmLDNB .username-h_Y3Us {
     /* text-shadow: 0 0 3px currentColor; */
-	filter: drop-shadow(0 0 2px currentColor);
+	filter: drop-shadow(0 0 1px currentColor);
     line-height: normal;
 }
 /* CHAT LINK GLOW */
@@ -82,4 +82,9 @@ filter: drop-shadow(0 0 1px #1fbeeea8);
 /* BOT TAG GLOW */
 .px-MnE_OR.botTag-7aX5WZ{
 filter: drop-shadow(0 0 2px #1fbeeea8);
+}
+
+/* FOLDER ICON */
+.expandedFolderIconWrapper-3RwQpD{
+	filter: drop-shadow(0 0 2px #00ffff);
 }
